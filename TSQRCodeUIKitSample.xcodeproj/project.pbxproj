@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C10B25E2C78137700CB7748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10B25D2C78137700CB7748 /* AppDelegate.swift */; };
+		7C10B2602C78137700CB7748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10B25F2C78137700CB7748 /* SceneDelegate.swift */; };
+		7C10B2672C78137A00CB7748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C10B2662C78137A00CB7748 /* Assets.xcassets */; };
+		7C10B26A2C78137A00CB7748 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7C10B2692C78137A00CB7748 /* Base */; };
+		7C10B2762C7853AC00CB7748 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10B2752C7853AC00CB7748 /* QRCodeGenerator.swift */; };
+		7C10B2782C7853CE00CB7748 /* QRScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10B2772C7853CE00CB7748 /* QRScannerService.swift */; };
+		7C10B27A2C7853F300CB7748 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10B2792C7853F300CB7748 /* ImagePickerManager.swift */; };
+		7C10B27E2C78545700CB7748 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10B27D2C78545700CB7748 /* QRCodeViewController.swift */; };
+		7C10B2802C78546200CB7748 /* QRCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10B27F2C78546200CB7748 /* QRCodeViewModel.swift */; };
+		7C10B2822C78566A00CB7748 /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10B2812C78566A00CB7748 /* QRCodeService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C10B25A2C78137700CB7748 /* TSQRCodeUIKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSQRCodeUIKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C10B25D2C78137700CB7748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C10B25F2C78137700CB7748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7C10B2662C78137A00CB7748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C10B2692C78137A00CB7748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C10B26B2C78137A00CB7748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C10B2752C7853AC00CB7748 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		7C10B2772C7853CE00CB7748 /* QRScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerService.swift; sourceTree = "<group>"; };
+		7C10B2792C7853F300CB7748 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		7C10B27D2C78545700CB7748 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		7C10B27F2C78546200CB7748 /* QRCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewModel.swift; sourceTree = "<group>"; };
+		7C10B2812C78566A00CB7748 /* QRCodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C10B2572C78137700CB7748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C10B2512C78137700CB7748 = {
+			isa = PBXGroup;
+			children = (
+				7C10B25C2C78137700CB7748 /* TSQRCodeUIKitSample */,
+				7C10B25B2C78137700CB7748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C10B25B2C78137700CB7748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C10B25A2C78137700CB7748 /* TSQRCodeUIKitSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C10B25C2C78137700CB7748 /* TSQRCodeUIKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				7C10B25D2C78137700CB7748 /* AppDelegate.swift */,
+				7C10B25F2C78137700CB7748 /* SceneDelegate.swift */,
+				7C10B27B2C78542300CB7748 /* Feature */,
+				7C10B2722C78531000CB7748 /* Service */,
+				7C10B2742C78537700CB7748 /* Utils */,
+				7C10B2712C784D0D00CB7748 /* Resources */,
+			);
+			path = TSQRCodeUIKitSample;
+			sourceTree = "<group>";
+		};
+		7C10B2712C784D0D00CB7748 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C10B2662C78137A00CB7748 /* Assets.xcassets */,
+				7C10B2682C78137A00CB7748 /* LaunchScreen.storyboard */,
+				7C10B26B2C78137A00CB7748 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7C10B2722C78531000CB7748 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7C10B2792C7853F300CB7748 /* ImagePickerManager.swift */,
+				7C10B2812C78566A00CB7748 /* QRCodeService.swift */,
+				7C10B2772C7853CE00CB7748 /* QRScannerService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7C10B2742C78537700CB7748 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7C10B2752C7853AC00CB7748 /* QRCodeGenerator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7C10B27B2C78542300CB7748 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				7C10B27C2C78543C00CB7748 /* QRCode */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		7C10B27C2C78543C00CB7748 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				7C10B27D2C78545700CB7748 /* QRCodeViewController.swift */,
+				7C10B27F2C78546200CB7748 /* QRCodeViewModel.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C10B2592C78137700CB7748 /* TSQRCodeUIKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C10B26E2C78137A00CB7748 /* Build configuration list for PBXNativeTarget "TSQRCodeUIKitSample" */;
+			buildPhases = (
+				7C10B2562C78137700CB7748 /* Sources */,
+				7C10B2572C78137700CB7748 /* Frameworks */,
+				7C10B2582C78137700CB7748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSQRCodeUIKitSample;
+			productName = TSQRCodeSample;
+			productReference = 7C10B25A2C78137700CB7748 /* TSQRCodeUIKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C10B2522C78137700CB7748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7C10B2592C78137700CB7748 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7C10B2552C78137700CB7748 /* Build configuration list for PBXProject "TSQRCodeUIKitSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C10B2512C78137700CB7748;
+			productRefGroup = 7C10B25B2C78137700CB7748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C10B2592C78137700CB7748 /* TSQRCodeUIKitSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C10B2582C78137700CB7748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C10B2672C78137A00CB7748 /* Assets.xcassets in Resources */,
+				7C10B26A2C78137A00CB7748 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C10B2562C78137700CB7748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C10B2782C7853CE00CB7748 /* QRScannerService.swift in Sources */,
+				7C10B2802C78546200CB7748 /* QRCodeViewModel.swift in Sources */,
+				7C10B2762C7853AC00CB7748 /* QRCodeGenerator.swift in Sources */,
+				7C10B25E2C78137700CB7748 /* AppDelegate.swift in Sources */,
+				7C10B2602C78137700CB7748 /* SceneDelegate.swift in Sources */,
+				7C10B2822C78566A00CB7748 /* QRCodeService.swift in Sources */,
+				7C10B27E2C78545700CB7748 /* QRCodeViewController.swift in Sources */,
+				7C10B27A2C7853F300CB7748 /* ImagePickerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C10B2682C78137A00CB7748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C10B2692C78137A00CB7748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C10B26C2C78137A00CB7748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C10B26D2C78137A00CB7748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C10B26F2C78137A00CB7748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YW6867KB8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TSQRCodeUIKitSample/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 접근 권한 필요";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 접근 권한 필요";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsleedev.TSQRCodeUIKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C10B2702C78137A00CB7748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YW6867KB8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TSQRCodeUIKitSample/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 접근 권한 필요";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 접근 권한 필요";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsleedev.TSQRCodeUIKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C10B2552C78137700CB7748 /* Build configuration list for PBXProject "TSQRCodeUIKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C10B26C2C78137A00CB7748 /* Debug */,
+				7C10B26D2C78137A00CB7748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C10B26E2C78137A00CB7748 /* Build configuration list for PBXNativeTarget "TSQRCodeUIKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C10B26F2C78137A00CB7748 /* Debug */,
+				7C10B2702C78137A00CB7748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C10B2522C78137700CB7748 /* Project object */;
+}
